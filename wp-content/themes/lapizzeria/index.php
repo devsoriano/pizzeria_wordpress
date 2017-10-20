@@ -1,6 +1,11 @@
-<?php 
-while (have_posts()):the_post();
-    the_title('<h1>', '</h1>');
-
-    the_content();
-endwhile;
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <?php wp_head(); ?>
+</head>
+<body>
+    <h1>Hola!!!</h1>
+</body>
+</html>
