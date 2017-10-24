@@ -36,15 +36,20 @@
       </div><!--contenedor-->
     </header>
     
-    
-    <div class="contenedor navegacion">
-      <?php
-      $args = array(
-        'theme-location' => 'header-menu',
-        'container' => 'nav',
-        'container_class' => 'menu-sitio'
-      );
-      
-      wp_nav_menu( $args );
-      ?>
+    <div class="menu-principal">
+      <div class="mobile-menu">
+        <a  href="#" class="mobile"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      </div>
+
+      <div class="contenedor navegacion">
+        <?php
+        $args = array(
+          'theme-location' => 'header-menu',
+          'container' => 'nav',
+          'container_class' => 'menu-sitio'
+        );
+        
+        wp_nav_menu( $args );
+        ?>
+      </div>
     </div>
