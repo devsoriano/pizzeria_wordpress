@@ -11,7 +11,7 @@ Tags: restaurant, mobile first, responsive, pizza
 Text Domain: lapizzeria
 */
 
-html{
+html {
   box-sizing: border-box;
 }
 
@@ -19,7 +19,37 @@ html{
   box-sizing: inherit;
 }
 
-.contenedor{
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+
+h4 {
+  font-size: 24px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.contenedor {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
@@ -28,27 +58,27 @@ html{
 /**
 *Encabezado Sitio
 */
-header.encabezado-sitio{
+header.encabezado-sitio {
   border-bottom: 1px solid #c1c1c1;
   padding-bottom:  30px; 
 }
 
-div.logo{
+div.logo {
   text-align: center;
 }
 
-img.logotipo{
+img.logotipo {
   width: 250px;
 }
 
 @media only screen and ( min-width: 768px ) {
-  div.logo{
+  div.logo {
     text-align: left;
   }
 } 
 
 @media only screen and ( min-width: 992px ) {
-  div.logo{
+  div.logo {
     text-align: center;
   }
 } 
@@ -106,7 +136,7 @@ nav.sociales ul li {
   display: inline-block;
 }
 
-nav.sociales ul li a:before{
+nav.sociales ul li a:before {
   font-family: 'FontAwesome';
   display: inline-block;
   vertical-align: top;
@@ -205,4 +235,110 @@ nav.menu-sitio ul li:hover {
   .mobile-menu a{
     display: none;
   }
+}
+
+/**
+*Templetes contenido
+*/
+div.hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 450px;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  position: relative;
+}
+
+div.hero::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba( 0, 0, 0, .6 );
+}
+
+div.hero .contenido-hero {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffffff;
+  position: relative;
+  width: 100vw;
+  z-index: 2;
+}
+
+@media only screen and ( min-width: 768px ) {
+  div.texto-hero {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and ( min-width: 992px ) {
+  div.texto-hero {
+    width: 60%;
+  }
+}
+
+div.principal {
+  padding: 60px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+@media only screen and ( min-width: 768px ) {
+  div.principal {
+    margin-top: -90px;
+  }
+}
+
+.contenido-paginas p {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+/**
+*Footer
+*/
+footer {
+  margin-top: 30px;
+  padding: 30px 0;
+  border-top: 1px solid #c1c1c1;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li {
+  display: inline;
+}
+
+footer nav ul li:last-child .separador {
+  display: none;
+}
+
+footer nav ul li a {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+footer .ubicacion {
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
+
+footer p .copyright {
+  margin-top: 20px;
 }
