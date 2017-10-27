@@ -9,6 +9,7 @@ $ ( document ).ready( function () {
   //resize a pantalla para no desaparecer menú responsivo
   var breackpoint = 768;
   $( window ).resize( function () {
+    //llamar a ajustarCajas  
     ajustarCajas();
     if ( $( document ).width() >= breackpoint ) {
       $( 'nav.menu-sitio' ).show();
