@@ -44,6 +44,28 @@ h4 {
   font-size: 24px;
 }
 
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width: auto;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 15px 80px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+.button.rojo {
+  background-color: #a61206;
+}
+
+.button:hover {
+  background-color: #f19f30;
+  letter-spacing: 2px;
+}
+
 .texto-rojo {
   color: #a61206;
 }
@@ -69,9 +91,7 @@ img {
   height: auto;
 }
 
-/**
-*Encabezado Sitio
-*/
+/**Encabezado Sitio**/
 header.encabezado-sitio {
   border-bottom: 1px solid #c1c1c1;
   padding-bottom:  30px; 
@@ -126,9 +146,7 @@ div.direccion p {
   }
 }
 
-/**
-*Menú header sociales
-*/
+/**Menú header sociales**/
 nav.sociales ul {
   text-align: center;
   list-style: none;
@@ -181,9 +199,7 @@ nav.sociales li a[href*="pinterest.com"]::before {
   content: '\f231';
 }
 
-/**
-*Navegación principal
-*/
+/**Navegación principal**/
 nav.menu-sitio {
   display: none;
 }
@@ -227,9 +243,7 @@ nav.menu-sitio ul li:hover {
   }
 }
 
-/**
-*Responsive  menu
-*/
+/**Responsive  menu**/
 @media only screen and ( max-width: 767px ) {
   .mobile-menu a{
     height: 40px;
@@ -251,9 +265,7 @@ nav.menu-sitio ul li:hover {
   }
 }
 
-/**
-*Templetes contenido
-*/
+/**Templetes contenido**/
 div.hero {
   background-repeat: no-repeat;
   background-position: center center;
@@ -314,9 +326,7 @@ div.principal {
   line-height: 50px;
 }
 
-/**
-*Footer
-*/
+/**Footer**/
 footer {
   margin-top: 30px;
   padding: 30px 0;
@@ -357,9 +367,7 @@ footer p .copyright {
   margin-top: 20px;
 }
 
-/**
-*Nosotros
-*/
+/**Nosotros**/
 div.informacion-cajas > div {
   text-align: center;
   width: 100%;
@@ -415,10 +423,7 @@ div.contenido-caja h3 {
   font-size: 24px;
 }
 
-/*
-*Especialidades
-*/
-
+/**Especialidades**/
 .nuestras-especialidades {
   padding: 0, 60px;
 }
@@ -447,9 +452,7 @@ div.text-especialidad p {
   line-height: 30px;
 }
 
-/**
-*Grid
-*/
+/**Grid**/
 @media only screen and ( min-width: 768px ) {
   
   .contenedor-grid {
@@ -487,4 +490,65 @@ div.text-especialidad p {
   .columnas2-3 {
     width: 66.6%;
   }
+}
+
+/**Blog**/
+article.entrada-blog img {
+  margin-top: 30px;
+}
+
+header.informacion-entrada {
+  margin-top: 20px;
+}
+
+header.informacion-entrada div.fecha {
+  background-color: #f19f30;
+  float: left;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
+header.informacion-entrada div.fecha time {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+header.informacion-entrada div.fecha time span {
+  font-size: 16px;
+  display: block;
+  clear: both;
+  text-transform: uppercase;
+}
+
+/*header.informacion-entrada .titulo-entrada {
+  float: right;
+  width: calc(100% - 90px);
+}*/
+
+header.informacion-entrada h2 {
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header.informacion-entrada p.autor {
+  text-transform: uppercase;
+  color: #505050;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+p.autor i {
+  font-size: 30px;
+  color: #f19f30;
+}
+
+div.contenido-entrada  p {
+  margin-bottom: 0;
+  line-height: 24px;
 }
