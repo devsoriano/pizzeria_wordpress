@@ -44,6 +44,9 @@
             </article>
           <?php endwhile; ?>
         </main>
+        
+        <?php get_sidebar(); ?>
+      
       </div><!--Contenedor grid-->
     </div><!--Contenedor principal-->
 
