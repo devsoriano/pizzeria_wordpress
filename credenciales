@@ -1,5 +1,7 @@
-admin   
+admin
 gXz@z7zMCKwIauE0S2
 
 sudo chown -R www-data:www-data /var/www
 https://developer.wordpress.org/files/2014/10/template-hierarchy.png
+
+https://api.people-cloud.com/api/v1/employees/?api_token=LDRMwjcPb0lbpk0HCbfaKw7ywNabw8BOwS4UR0ryixlS4rxNf8JcB7GUwof3&fields=full_name,boss_id,boss_name,position_name,dob,first_name,last_name,second_last_name,area_id,area_name,start_date,contact_email

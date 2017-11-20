@@ -17,7 +17,9 @@
     <div class="principal contenedor">
       <div class="contenedor-grid">
         <main class="columnas2-3 contenido-paginas">
+
           <?php while( have_posts() ): the_post(); ?>
+            
             <article class="entrada-blog">
               <a href="<?php the_permalink(); ?>">
                 <?php the_post_thumbnail( 'especialidades' ); ?>
@@ -42,7 +44,13 @@
                 </div>
               </header>
             </article>
+          
           <?php endwhile; ?>
+
+          <div class="paginacion">
+            <?php echo paginate_links(); ?>
+          </div>
+          
         </main>
         
         <?php get_sidebar(); ?>

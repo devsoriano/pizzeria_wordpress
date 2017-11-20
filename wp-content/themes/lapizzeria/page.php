@@ -11,9 +11,9 @@
     </div>
 
     <div class="principal contenedor">
-        <main class="texto-centrado contenido-paginas">
-            <?php the_content(); ?>
-        </main>
+      <main class="texto-centrado contenido-paginas">
+          <?php the_content(); ?>
+      </main>
     </div>
 
     <?php endwhile; ?>
