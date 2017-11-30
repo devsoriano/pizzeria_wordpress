@@ -13,7 +13,7 @@
     <div class="principal contenedor contacto">
       <main class="contenido-paginas">
 
-        <form class="reserva-contacto" action="post">
+        <form class="reserva-contacto" method="post">
           <h2>Realiza una reservación</h2>
 
           <div class="campo">
@@ -36,7 +36,9 @@
             <textarea name="mensaje" placeholder="Mensaje" required></textarea>  
           </div>
         
-          <input type="submit" name="enviar" class="button" value="Enviar"/>
+          <input type="submit" name="enviar" class="button" />
+          <input type="hidden" name="oculto" value="1" />
+
         </form>
         
       </main>
