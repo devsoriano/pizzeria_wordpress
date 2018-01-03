@@ -5,7 +5,7 @@
     <title></title>
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body <?php body_class() ?> >
     <header class="encabezado-sitio">
       <div class="contenedor">
         <div class="logo">
