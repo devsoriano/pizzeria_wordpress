@@ -1922,7 +1922,7 @@ msgctxt "New user notification email subject"
 msgid "[%1$s] Activate %2$s"
 msgstr "[%1$s] Activar a %2$s"
 
-#: wp-includes/widgets.php:1395 wp-includes/widgets.php:1504
+#: wp-includes/widgets.php:1398 wp-includes/widgets.php:1507
 msgid "RSS Error:"
 msgstr "Error RSS:"
 
@@ -10331,7 +10331,7 @@ msgstr "Mostrar jerarquía"
 msgid "Recent Posts"
 msgstr "Entradas recientes"
 
-#: wp-includes/widgets.php:1426
+#: wp-includes/widgets.php:1429
 msgid "Untitled"
 msgstr "Sin título"
 
@@ -10396,27 +10396,27 @@ msgctxt "widgets"
 msgid "%1$s on %2$s"
 msgstr "%1$s en %2$s"
 
-#: wp-includes/widgets.php:1510
+#: wp-includes/widgets.php:1513
 msgid "Enter the RSS feed URL here:"
 msgstr "Introduce la URL del feed RSS aquí:"
 
-#: wp-includes/widgets.php:1513
+#: wp-includes/widgets.php:1516
 msgid "Give the feed a title (optional):"
 msgstr "Dale un título al feed (opcional):"
 
-#: wp-includes/widgets.php:1516
+#: wp-includes/widgets.php:1519
 msgid "How many items would you like to display?"
 msgstr "¿Cuantos elementos te gustaría mostrar?"
 
-#: wp-includes/widgets.php:1526
+#: wp-includes/widgets.php:1529
 msgid "Display item content?"
 msgstr "¿Mostrar el contenido?"
 
-#: wp-includes/widgets.php:1529
+#: wp-includes/widgets.php:1532
 msgid "Display item author if available?"
 msgstr "¿Mostrar el autor si está disponible?"
 
-#: wp-includes/widgets.php:1532
+#: wp-includes/widgets.php:1535
 msgid "Display item date?"
 msgstr "¿Mostrar la fecha?"
 
@@ -10959,7 +10959,7 @@ msgstr "Mostrar la clasificación del enlace"
 msgid "Comment on %1$s by %2$s"
 msgstr "Comentario en %1$s por %2$s"
 
-#: wp-includes/rss.php:917 wp-includes/widgets.php:1410
+#: wp-includes/rss.php:917 wp-includes/widgets.php:1413
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "Ha ocurrido un error, probablemente el feed esté caído. Inténtalo de nuevo más tarde."
 
@@ -11492,7 +11492,7 @@ msgstr "Página siguiente &raquo;"
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Disculpa, debes <a href=\"%s\">iniciar sesión</a> para escribir un comentario."
 
-#: wp-includes/category-template.php:1139
+#: wp-includes/category-template.php:1131
 msgid "Tags: "
 msgstr "Etiquetas: "
 
