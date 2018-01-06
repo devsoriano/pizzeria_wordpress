@@ -783,6 +783,7 @@ form.reserva-contacto ::moz-placeholder {
   color: #000000 !important;
 }
 
+
 form.reserva-contacto ::-ms-input-placeholder {
   color: #000000 !important;
 }
@@ -875,3 +876,83 @@ div.contenido-especialidad:hover div.informacion-platillo{
   }
 }
 
+/*Ingredientes*/
+section.ingredientes {
+  background-image: url(img/bg-ingredientes.jpg);
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding: 80px 0;
+  color: #fff;
+}
+
+section.ingredientes h3 {
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+section.ingredientes p {
+  line-height: 40px;
+  font-size: 20px;
+}
+
+section.ingredientes div.imagen {
+  padding-top: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+section.ingredientes div.imagen img { 
+  width: 80%;
+}
+
+/**Ubicación y resservación**/
+section.ubicacion-reservacion {
+  background-image: url(img/bg-ingredientes.jpg);
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.home form.reserva-contacto {
+  margin: 0;
+  padding: 30px;
+}
+
+.home form.reserva-contacto h2 {
+  color: #fff;
+  font-size: 34px;
+  text-align: center;
+}
+
+.home form.reserva-contacto input,
+.home form.reserva-contacto textarea {
+  background-color: transparent;
+  border: 4px solid #fff;
+}
+
+.home form.reserva-contacto ::-webkit-input-placeholder {
+  color: #ffffff !important;
+}
+
+.home form.reserva-contacto :moz-placeholder {
+  color: #ffffff !important;
+}
+
+.home form.reserva-contacto ::moz-placeholder {
+  color: #ffffff !important;
+}
+
+.home form.reserva-contacto ::-ms-input-placeholder {
+  color: #ffffff !important;
+}
+
+input[type="datetime-local"] {
+  color: #ffffff;
+}
+
+.home form.reserva-contacto input[type="submit"] {
+  border: none;
+  width: auto;
+  background-color: #a61206;
+  display: inline;
+}
